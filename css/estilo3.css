@@ -1,6 +1,6 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
     box-sizing: border-box;
 }
@@ -25,10 +25,10 @@ footer {
     width: 100%;
     display: flex;
     margin-top: 20px;
-    flex-direction: row;
-    justify-content: space-evenly;
     border: 2px solid black;
     border-radius: 8px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 img {
@@ -59,9 +59,5 @@ p {
     border-radius: 8px;
     padding: 5px;
     justify-content: space-around;
-    background-color: azure;
-    
-    
-
-
+    background-color: azure; 
 }
